@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1.5;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -77,14 +77,15 @@ html, body {
 
    
 #logo {
-    margin-bottom: 1px;
+    margin-bottom: 16px;
 	text-align: center;
 }
 
 h1 {
-    font-family: Gaultier;
-    font-weight: 15px;
+    font-family: omnes, regular;
+    font-weight: 400;
     font-style: ;
+    font-weight: 20;
 
 	font-size: 2em;
     margin: 0px auto 10px auto;
@@ -93,69 +94,52 @@ h1 {
 
 h2 {
     	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 1.5em;
+	font-family: coquette, serif;
+    font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px;
     margin: 0px auto 25px auto;
 }
 
-    /*adding in code for the links*/
-* {margin: 0; padding: 0;}
-
-nav {
-  margin: 100px;
+p {
+	font-family: omnes, serif;
+    font-weight: 400;
+    font-style: italic;/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
 }
-
-ul {
-  overflow: auto;
-  list-style-type: none;
-}
-
-li {
-  height: 25px;
-  float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  text-decoration: none;
-  color: #ccc;
-  font: 25px/1 Reross Quadratic;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s ease;
-}
-
-/*this is for when someone hovers over the link*/
-li a:hover {
-  color: #666;
-}
-/*this is for when someone clicks on the link*/
-li.active a {
-  font-weight: bold;
-  color: #333;
-}
-/*end of new code*/
-
-/*this is the info on the links*/    
+    
 nav{
-    font-family: gaultier-light, sans-serif;
-    font-size: 1.5em;
-    width: 500px;
+    font-family: omnes,serif;
+    font-size: 1.2em;
+    width: 400px;
     margin: 0 auto;
-    border: curved white;
+    border: rounded white;
     border-width: 3px 0;
     text-align: center;
-    margin-top: .5
-        em; 
+    margin-top: 2em;
+        
 }
 
+nav li{
+        display:inline;
+}
 
+nav a{
+    display:inline-block;
+    padding:10px;
+}
+    
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-
+a:hover{
+    color:whitesmoke;
+    background: rgba(249, 235, 235, 0.1); /*this uses opacity of 75% for the background color*/
+    
+}
