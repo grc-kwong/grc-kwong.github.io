@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images-copy/swirlsbg.jpg) 
 	   center center fixed no-repeat;
         background-size: cover; 
 	
@@ -70,22 +70,21 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(249, 235, 235, 0.1); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 1px;
 	text-align: center;
 }
 
 h1 {
-    font-family: bely, serif;
-    font-weight: 400;
-    font-style: italic;
+    font-family: Gaultier;
+    font-weight: 15px;
+    font-style: ;
 
 	font-size: 2em;
     margin: 0px auto 10px auto;
@@ -101,44 +100,62 @@ h2 {
     margin: 0px auto 25px auto;
 }
 
-p {
-	font-family: bely, serif;
-    font-weight: 400;
-    font-style: italic;/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+    /*adding in code for the links*/
+* {margin: 0; padding: 0;}
+
+nav {
+  margin: 100px;
 }
-    
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Reross Quadratic;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+/*this is for when someone hovers over the link*/
+li a:hover {
+  color: #666;
+}
+/*this is for when someone clicks on the link*/
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+/*end of new code*/
+
+/*this is the info on the links*/    
 nav{
-    font-family: garamond,serif;
-    font-size: 1.2em;
-    width: 400px;
+    font-family: gaultier-light, sans-serif;
+    font-size: 1.5em;
+    width: 500px;
     margin: 0 auto;
-    border: dashed turquoise;
+    border: curved white;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
-        
+    margin-top: .5
+        em; 
 }
 
-nav li{
-        display:inline;
-}
 
-nav a{
-    display:inline-block;
-    padding:10px;
-}
-    
-a{
-    color:#444;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-a:hover{
-    color:black;
-    background:pink;
-    
-}
+
