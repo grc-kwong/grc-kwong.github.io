@@ -66,19 +66,21 @@ html, body {
 	
 }
 
-.center {
-    width: 800px;
+.center {/*adding in responsive info*/
+    width: 80%;
+    max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(249, 235, 235, 0.1); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px white;
+	background: rgba (256, 256, 256, .60);
 }
 
    
 #logo {
+    width: 80%;
     margin-bottom: 16px;
 	text-align: center;
+   
 }
 
 h1 {
@@ -90,6 +92,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
+    width: 80%;
 }
 
 h2 {
@@ -99,7 +102,8 @@ h2 {
     line-height: 1.4;
     color: #fff;
     padding: 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 0px auto;
+       width: 80%;
 }
 
 p {
@@ -109,6 +113,7 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
+       width: 80%;
 }
     
 nav{
@@ -120,11 +125,14 @@ nav{
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
+    padding-bottom: 10em
         
 }
 
+
 nav li{
         display:inline;
+    
 }
 
 nav a{
@@ -139,7 +147,8 @@ a{
 }
 
 a:hover{
-    color:whitesmoke;
+    color:white;
     background: rgba(249, 235, 235, 0.1); /*this uses opacity of 75% for the background color*/
+    
     
 }
