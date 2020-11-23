@@ -88,32 +88,37 @@ h1 {
     font-weight: 400;
     font-style: ;
     font-weight: 20;
-
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
-    width: 80%;
+    width: 80%;  /*added for responsive text
+    */ 
+    
 }
 
 h2 {
     	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: coquette, serif;
+    font-family: coquette, serif;
     font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px;
     margin: 0px auto 0px auto;
-       width: 80%;
+    /*added for responsive text
+    */ width: 80%;
+     
 }
 
 p {
-	font-family: omnes, serif;
+	 /*added for responsive text
+    */ width: 80%;
+    font-family: omnes, serif;
     font-weight: 400;
     font-style: italic;/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
-       width: 80%;
+     
 }
     
 nav{
